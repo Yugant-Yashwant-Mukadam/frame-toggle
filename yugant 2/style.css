@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.flex{
+    display :flex;
+}
+header{
+    background-color: #ff7b00;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+main{
+
+    min-height: 100vh;
+    min-width: 95vw;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.contain{
+    width: 5020px;
+    height: 510px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btn{
+   height: 250px ;
+   width: 350px;
+   background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center;
+    background-color: #ffc300;
+    border-radius: 10%;
+    margin: 10px;
+    
+}
+.watermelon{
+    background-image: url(images/watermelon\ 2.jpg);
+}
+.banana{
+    background-image: url(images/banana\ 2.jpg );
+}
+.orange{
+    background-image: url(images/orange\ 2.jpg);
+}
+.kiwi{
+    background-image: url(images/kiwi\ 2.jpg);
+}
+.bg{
+    background-image: url(images/Untitled.jpeg); 
+}
+.active{
+    display: none;
+}
